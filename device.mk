@@ -226,6 +226,12 @@ PRODUCT_PACKAGES += \
     libavservices_minijail \
     libavservices_minijail.vendor \
     libwifi-hal-ctrl
+	
+#HALS
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/qcom-caf/msm8996/audio \
+    hardware/qcom-caf/msm8996/display \
+    hardware/qcom-caf/msm8996/media
 
 # Healthd
 PRODUCT_PACKAGES += \
