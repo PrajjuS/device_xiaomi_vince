@@ -1,1 +1,6 @@
 allow platform_app system_app_data_file:dir getattr;
+
+# FPS
+allow platform_app sysfs_graphics:file r_file_perms;
+allow platform_app sysfs_fps:file { getattr open read };
+allow platform_app sysfs_graphics:dir search;
