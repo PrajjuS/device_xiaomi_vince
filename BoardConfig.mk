@@ -58,14 +58,14 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 TARGET_KERNEL_SOURCE := kernel/xiaomi/vince
 TARGET_KERNEL_VERSION := 4.9
 
-# Use clang 11
-#TARGET_KERNEL_CLANG_COMPILE := true
-#TARGET_KERNEL_CLANG_VERSION := 11
+# Use proton-clang
+TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_CLANG_VERSION := proton
 #KERNEL_TOOLCHAIN_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-11/bin/aarch64-linux-gnu-
 
 # GCC
-CROSS_COMPILE := $(shell pwd)/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
-CROSS_COMPILE_ARM32 := $(shell pwd)/prebuilts/gcc/linux-x86/arm/arm/linux/androideabi-4.9/bin/arm-linux-androideabi-
+#CROSS_COMPILE := $(shell pwd)/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
+#CROSS_COMPILE_ARM32 := $(shell pwd)/prebuilts/gcc/linux-x86/arm/arm/linux/androideabi-4.9/bin/arm-linux-androideabi-
 
 # ANT
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
