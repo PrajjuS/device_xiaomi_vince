@@ -302,6 +302,11 @@ ro.surface_flinger.set_touch_timer_ms=5000 \
 ro.surface_flinger.set_idle_timer_ms=9000 \
 ro.surface_flinger.wcg_composition_dataspace=143261696
 
+# SOC
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.soc.manufacturer=QTI \
+ro.soc.model=MSM8953
+
 # Time Services
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.vendor.delta_time.enable=true
