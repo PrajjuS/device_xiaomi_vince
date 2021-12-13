@@ -159,6 +159,11 @@ PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
 # Camera
 PRODUCT_PACKAGES += \
+    android.hardware.camera.common@1.0 \
+    android.hardware.camera.provider@2.4 \
+    android.hardware.camera.provider@2.4-impl \
+    android.hardware.camera.provider@2.4-service \
+    vendor.qti.hardware.camera.device@1.0 \
     camera.msm8953 \
     libmm-qcamera \
     libdng_sdk.vendor \
