@@ -1,12 +1,4 @@
 # system.prop for vince
 
-# Maintainer
-org.elixir.device.name=Redmi 5 Plus
-ro.elixir.device.name=Redmi 5 Plus
-ro.elixir.device=vince
-ro.elixir.maintainer=PrajjuS
-ro.elixir.maintainer.username=PrajjuS
-ro.elixir.group.url=t.me/Elixir_Discussion
-
 # BPF
 ro.kernel.ebpf.supported=true
