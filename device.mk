@@ -400,6 +400,10 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.qcom.rc
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    removepackages
+
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.2 \
