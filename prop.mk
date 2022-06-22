@@ -341,6 +341,10 @@ persist.vendor.usb.config.extra=none
 PRODUCT_PROPERTY_OVERRIDES += \
 wifi.interface=wlan0
 
+# Wifi Display (Platform)
+PRODUCT_SYSTEM_PROPERTIES += \
+media.wfd.max_resolution=7
+
 # Additional Props
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.cgroup_follow.enable=true
