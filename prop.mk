@@ -140,7 +140,6 @@ debug.cpurend.vsync=false \
 debug.egl.hw=1 \
 debug.enable.sglscale=1 \
 debug.gralloc.enable_fb_ubwc=1 \
-debug.hwui.renderer=skiagl \
 debug.hwui.use_buffer_age=false \
 debug.mdpcomp.idletime=600 \
 debug.mdpcomp.logs=0 \
@@ -159,13 +158,17 @@ persist.hwc.ptor.enable=true \
 ro.opengles.version=196610 \
 ro.qualcomm.cabl=0 \
 ro.vendor.display.cabl=2 \
-ro.hardware.vulkan=adreno \
-ro.hardware.egl=adreno \
 sdm.debug.disable_skip_validate=1 \
 vendor.display.disable_skip_validate=1 \
 vendor.display.enable_default_color_mode=1 \
 vendor.gralloc.enable_fb_ubwc=1 \
 video.accelerate.hw=1
+
+# SkiaGL Threaded
+PRODUCT_PROPERTY_OVERRIDES += \
+debug.renderengine.backend=skiaglthreaded \
+debug.hwui.renderer=skiagl \
+renderthread.skia.reduceopstasksplitting=true
 
 # DPM
 PRODUCT_PROPERTY_OVERRIDES += \
