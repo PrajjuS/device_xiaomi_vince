@@ -135,7 +135,6 @@ TARGET_USES_HWC2 := true
 TARGET_USES_OVERLAY := true
 TARGET_USES_VULKAN := true
 
-OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 USE_OPENGL_RENDERER := true
 
 # UI
