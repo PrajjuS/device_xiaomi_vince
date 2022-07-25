@@ -29,7 +29,7 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 
 # Inherit some common Project-Elixir stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 720
 TARGET_DISABLE_POSTRENDER_CLEANUP := true
 
 # Teamfiles Pixel Launcher
