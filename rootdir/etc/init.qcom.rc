@@ -328,6 +328,13 @@ service qcom-post-boot /vendor/bin/init.qcom.post_boot.sh
 on property:sys.boot_completed=1
     start qcom-post-boot
 
+on property:persist.radio.airplane_mode_on=1
+    stop vendor.qcrild
+    stop vendor.qcrild2
+    exec /bin/sleep 2
+    start vendor.qcrild
+    start vendor.qcrild2
+
 on property:init.svc.qcom-post-boot=stopped
     # Set min gpu freq as 320mhz
     write /sys/class/kgsl/kgsl-3d0/devfreq/min_freq 320000000
