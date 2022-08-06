@@ -264,6 +264,9 @@ on property:vold.decrypt=trigger_restart_framework
     restart vendor.audio-hal
     restart vendor.fps_hal
     start wcnss-service
+    restart vendor.qcrild
+    exec /bin/sleep 2
+    restart vendor.qcrild2
 
 on property:persist.env.fastdorm.enabled=true
     setprop persist.radio.data_no_toggle 1
