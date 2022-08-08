@@ -94,7 +94,7 @@ vendor.audio.feature.audiozoom.enable=false \
 vendor.audio.feature.auto_hal.enable=false \
 vendor.audio.read.wsatz.type=true \
 vendor.audio.feature.multi_voice_session.enable=true \
-vendor.audio.feature.incall_music.enable=false
+vendor.audio.feature.incall_music.enable=true
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
