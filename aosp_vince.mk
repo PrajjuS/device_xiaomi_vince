@@ -32,9 +32,6 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_DISABLE_POSTRENDER_CLEANUP := true
 
-# Teamfiles Pixel Launcher
-$(call inherit-product, vendor/PixelLauncher/PixelLauncher.mk)
-
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
 PRODUCT_NAME := aosp_vince
