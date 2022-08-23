@@ -171,7 +171,7 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/vintf/vendor.qti.esepowermanager@1.0-serv
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_vince
-TARGET_RECOVERY_DEVICE_MODULES := libinit_msm8953
+TARGET_RECOVERY_DEVICE_MODULES := libinit_vince
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
