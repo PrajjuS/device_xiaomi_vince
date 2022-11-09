@@ -267,6 +267,10 @@ persist.vendor.radio.nitz_sons_1="" \
 persist.vendor.radio.nitz_sons_2="" \
 persist.vendor.radio.nitz_sons_3=""
 
+# Phantom process monitoring
+PRODUCT_PROPERTY_OVERRIDES += \
+sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
 # Qualcomm
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.vendor.qti.va_aosp.support=1 \
