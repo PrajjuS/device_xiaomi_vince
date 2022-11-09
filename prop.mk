@@ -185,6 +185,7 @@ video.accelerate.hw=1
 PRODUCT_PROPERTY_OVERRIDES += \
 debug.renderengine.backend=skiaglthreaded \
 debug.hwui.renderer=skiagl \
+debug.hwui.skia_atrace_enabled=false \
 renderthread.skia.reduceopstasksplitting=true
 
 # DPM
