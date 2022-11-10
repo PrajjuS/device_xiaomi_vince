@@ -348,6 +348,7 @@ ril.subscription.types=NV,RUIM \
 ro.telephony.call_ring.multiple=false \
 ro.telephony.default_network=22,22 \
 ro.telephony.use_old_mnc_mcc_format=true \
+ro.telephony.block_binder_thread_on_incoming_calls=false
 
 # Time Services
 PRODUCT_PROPERTY_OVERRIDES += \
