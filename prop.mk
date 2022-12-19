@@ -308,6 +308,7 @@ debug.sf.early.sf.duration=15000000 \
 debug.sf.early.app.duration=15500000 \
 debug.sf.earlyGl.sf.duration=13500000 \
 debug.sf.earlyGl.app.duration=9500000 \
+debug.sf.disable_backpressure=1 \
 debug.sf.disable_hwc=0 \
 debug.sf.enable_hwc_vds=0 \
 debug.sf.latch_unsignaled=1 \
