@@ -285,7 +285,7 @@ ro.telephony.call_ring.multiple=false \
 ro.telephony.use_old_mnc_mcc_format=true \
 ro.telephony.block_binder_thread_on_incoming_calls=false \
 ril.subscription.types=NV,RUIM \
-service.qti.ims.enabled=1
+vendor.service.qti.ims.enabled=1
 
 # Recovery
 PRODUCT_SYSTEM_PROPERTIES += \
