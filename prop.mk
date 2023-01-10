@@ -202,10 +202,6 @@ iorapd.perfetto.enable=false \
 iorapd.readahead.enable=false \
 persist.device_config.runtime_native_boot.iorap_readahead_enable=false
 
-# Logging
-PRODUCT_SYSTEM_PROPERTIES += \
-ro.control_privapp_permissions=log
-
 # Media
 PRODUCT_VENDOR_PROPERTIES += \
 av.debug.disable.pers.cache=1 \
