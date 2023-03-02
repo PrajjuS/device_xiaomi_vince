@@ -411,8 +411,7 @@ PRODUCT_COPY_FILES += \
 # Shims
 PRODUCT_PACKAGES += \
     libui_shim \
-    libui_shim.vendor:32 \
-    libdpmframework_shim
+    libui_shim.vendor:32
 
 # TextClassifier smart selection model files
 PRODUCT_PACKAGES += \
