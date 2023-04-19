@@ -4,7 +4,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := removepackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
-LOCAL_OVERRIDES_PACKAGES := Aperture Maps Drive PrebuiltGmail YouTube Videos TipsPrebuilt
+LOCAL_OVERRIDES_PACKAGES := Aperture Chrome
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
