@@ -284,7 +284,9 @@ persist.vendor.ims.disableDebugDataPathLogs=1 \
 persist.vendor.ims.disableDebugLogs=1 \
 persist.vendor.ims.disableSigHandler=1 \
 persist.vendor.ims.disableQXDMLogs=1 \
-ril.subscription.types=NV,RUIM \
+ril.subscription.types=NV,RUIM
+
+PRODUCT_PRODUCT_PROPERTIES += \
 ro.telephony.block_binder_thread_on_incoming_calls=false
 
 # Recovery
