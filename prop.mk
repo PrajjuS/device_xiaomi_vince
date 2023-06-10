@@ -221,6 +221,7 @@ av.debug.disable.pers.cache=1 \
 media.msm8956hw=0 \
 media.stagefright.audio.sink=280 \
 mmp.enable.3g2=true \
+video.disable.ubwc=1 \
 vendor.video.disable.ubwc=1
 
 # codecs:(PARSER_)AAC AC3 ASF FLV 3G2 MP2PS MP2TS QCP AIFF
