@@ -1,0 +1,10 @@
+device/xiaomi/vince
+vendor/xiaomi/vince
+kernel/xiaomi/vince
+hardware/qcom-caf/wlan
+hardware/qcom-caf/msm8996/audio
+hardware/qcom-caf/msm8996/display
+hardware/qcom-caf/msm8996/media
+prebuilts/clang/host/linux-x86/clang-aosp
+packages/apps/RevampedFMRadio
+packages/apps/ViPER4AndroidFX
