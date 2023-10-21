@@ -1,6 +1,6 @@
-git clone --depth=1 https://github.com/PrajjuS/android_device_xiaomi_vince -b elixir-13 device/xiaomi/vince
+git clone --depth=1 https://github.com/PrajjuS/device_xiaomi_vince -b elixir-14 device/xiaomi/vince
 
-git clone --depth=1 https://github.com/PrajjuS/vendor_xiaomi_vince -b elixir-13 vendor/xiaomi/vince
+git clone --depth=1 https://github.com/PrajjuS/vendor_xiaomi_vince -b elixir-14 vendor/xiaomi/vince
 
 git clone --depth=1 https://github.com/GhostMaster69-dev/android_kernel_xiaomi_vince -b master kernel/xiaomi/vince
 
